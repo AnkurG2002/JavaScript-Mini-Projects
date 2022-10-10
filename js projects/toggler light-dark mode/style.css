@@ -1,0 +1,22 @@
+#toggle {
+    position: relative;
+    width: 80px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 20px auto;
+    cursor: pointer;
+    background-color: white;
+}
+#ball {
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    transition: .5s;
+}
+h1 {
+    text-align: center;
+}
