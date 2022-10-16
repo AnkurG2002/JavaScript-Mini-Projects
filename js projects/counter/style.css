@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    padding: 20px 0;
+}
+
+.input_container {
+    background-image: linear-gradient(to right, rgb(151, 222, 250), rgb(242, 162, 242));
+    width: 90%;
+    height: auto;
+    margin-bottom: 40px;
+}
+.input_container h2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    word-spacing: 15px;
+    letter-spacing: 3px;
+}
+.input_value {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.input_value #num{
+    outline-color: rgb(0, 145, 255);
+    min-width: 160px;
+    width: 30%;
+    font-size: 20px;
+    padding: 6px;
+}
+.input_value #btn {
+    border: none;
+    outline-color: rgb(0, 145, 255);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    font-weight: 700;
+    box-shadow: 0 0 10px 3px whitesmoke;
+    cursor: pointer;
+}
+
+.counter_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(74, 78, 82, 0.8);
+    width: 70%;
+    height: 150px;
+}
+.counter_container > div {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    position: relative;
+}
+.counter_container .current, .next {
+    border-top: 4px solid black;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: white;
+    text-align: center;
+    font-size: 60px;
+    position: absolute;
+}
+p.next {
+    top: 80px;
+}
+p.animate {
+    transition: all 0.5s;
+    top: 0px;
+}
