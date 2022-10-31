@@ -16,7 +16,7 @@ let l1 = document.getElementsByClassName("heart1");
 let l2 = document.getElementsByClassName("heart2");
 let livesNo1 = 3, livesNo2 = 3;
 
-let notIntial = true, id;
+let notIntial = true;
 let startB = document.getElementById("start-button");
 let newGameB = document.getElementById("new-game-button");
 let scoreDisp1 = document.getElementById("score-display1");
